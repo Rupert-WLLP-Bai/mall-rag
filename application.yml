@@ -1,0 +1,6 @@
+logging:
+  level:
+    root: info
+    io.github.norfloxaciner.mall: debug
+  file:
+    name: logs/app.log

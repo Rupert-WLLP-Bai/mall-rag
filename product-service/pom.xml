@@ -7,7 +7,11 @@
     <groupId>io.github.norfloxaciner</groupId>
     <artifactId>product-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-
+    <parent>
+        <groupId>io.github.norfloxaciner</groupId>
+        <artifactId>mall-rag</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
     <properties>
         <maven.compiler.source>24</maven.compiler.source>
         <maven.compiler.target>24</maven.compiler.target>
